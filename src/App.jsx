@@ -1,7 +1,12 @@
-import './App.css'
+import "./App.css";
+import Greet from "./components/Greet";
 
 function App() {
-  return <h1>Hello World!</h1>
+  return (
+    <>
+      <Greet />
+    </>
+  );
 }
 
-export default App
+export default App;
