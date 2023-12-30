@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const Greet = () => {
+const Greet = ({ name, children }) => {
   return (
-    <div>Hello from Greet functional component</div>
-  )
-}
+    <div>
+      <h3>Hello {name}</h3>
+      {children}
+    </div>
+  );
+};
 
-export default Greet
+export default Greet;
