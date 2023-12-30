@@ -6,11 +6,12 @@ import Hello from "./components/Hello";
 function App() {
   return (
     <>
-      <Greet name="user1"><p> this is children text </p></Greet>
+    <Welcome name="Superman" /> 
+    <Welcome name="Batman" />
+    {/*  <Greet name="user1"><p> this is children text </p></Greet>
       <Greet name="user2" />
       <Greet name="user3" />
-      {/* <Welcome /> 
-      <Hello /> */}
+        <Hello /> */}
     </>
   );
 }
