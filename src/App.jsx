@@ -7,7 +7,7 @@ function App() {
   return (
     <>
      {/* <Greet />
-      <Welcome />*/}
+      <Welcome /> */}
       <Hello />
     </>
   );
