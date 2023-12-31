@@ -5,12 +5,14 @@ import Hello from './components/Hello'
 import Message from './components/Message'
 import Count from './components/Count'
 import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
 
 function App() {
   return (
     <>
-      <FunctionClick />
-      {/* <Count />
+      <ClassClick />
+      {/* <FunctionClick />
+       <Count />
     <Message />
      <Welcome name="Superman" /> 
     <Welcome name="Batman" />
