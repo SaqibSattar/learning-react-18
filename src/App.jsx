@@ -7,12 +7,14 @@ import Count from './components/Count'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EventBinding from './components/EventBinding'
+import ParentComponent from './components/ParentComponent'
 
 function App() {
   return (
     <>
-      <EventBinding />
-      {/* <ClassClick />
+      <ParentComponent />
+      {/* <EventBinding />
+       <ClassClick />
        <FunctionClick />
        <Count />
     <Message />
