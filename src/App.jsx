@@ -8,12 +8,14 @@ import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EventBinding from './components/EventBinding'
 import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 
 function App() {
   return (
     <>
-      <ParentComponent />
-      {/* <EventBinding />
+      <UserGreeting />
+      {/* <ParentComponent />
+       <EventBinding />
        <ClassClick />
        <FunctionClick />
        <Count />
