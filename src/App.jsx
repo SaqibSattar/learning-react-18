@@ -6,12 +6,14 @@ import Message from './components/Message'
 import Count from './components/Count'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
+import EventBinding from './components/EventBinding'
 
 function App() {
   return (
     <>
-      <ClassClick />
-      {/* <FunctionClick />
+      <EventBinding />
+      {/* <ClassClick />
+       <FunctionClick />
        <Count />
     <Message />
      <Welcome name="Superman" /> 
