@@ -10,12 +10,14 @@ import EventBinding from './components/EventBinding'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
+import TodoList from './components/TodoList'
 
 function App() {
   return (
     <>
-    <NameList />
-     {/* <UserGreeting />
+    <TodoList />
+   {/* <NameList />
+      <UserGreeting />
        <ParentComponent />
        <EventBinding />
        <ClassClick />
