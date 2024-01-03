@@ -12,12 +12,14 @@ import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
 import TodoList from './components/TodoList'
 import Stylesheet from './components/Stylesheet'
+import Inline from './components/Inline'
 
 function App() {
   return (
     <>
-    <Stylesheet primary={true} />
-   {/*  <TodoList />
+    <Inline />
+    {/* <Stylesheet primary={true} />
+    <TodoList />
    <NameList />
       <UserGreeting />
        <ParentComponent />
