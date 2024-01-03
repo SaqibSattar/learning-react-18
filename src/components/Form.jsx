@@ -6,7 +6,8 @@ class Form extends Component {
     
       this.state = {
          username: '',
-
+         comment: '',
+         topic: 'React'
       }
     }
     handleUsernameChange = (e) => {
@@ -27,9 +28,15 @@ class Form extends Component {
         })
     }
 
+    handleSubmit = (e) => {
+      e.preventDefault();
+      console.log(this.state)
+
+    }
+
   render() {
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <div>
         <label>Username</label>
         <input value={this.state.username} onChange={this.handleUsernameChange}/>
@@ -48,6 +55,7 @@ class Form extends Component {
         <option value='Vue'>Vue</option>
         </select>
         </div>
+        <button type="submit">Submit</button>
       </form>
     );
   }
