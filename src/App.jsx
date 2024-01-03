@@ -1,28 +1,30 @@
-import './App.css'
-import Greet from './components/Greet'
-import Welcome from './components/Welcome'
-import Hello from './components/Hello'
-import Message from './components/Message'
-import Count from './components/Count'
-import FunctionClick from './components/FunctionClick'
-import ClassClick from './components/ClassClick'
-import EventBinding from './components/EventBinding'
-import ParentComponent from './components/ParentComponent'
-import UserGreeting from './components/UserGreeting'
-import NameList from './components/NameList'
-import TodoList from './components/TodoList'
-import Stylesheet from './components/Stylesheet'
-import Inline from './components/Inline'
-import './appStyles.css'
-import styles from './appStyles.module.css'
+import "./App.css";
+import Greet from "./components/Greet";
+import Welcome from "./components/Welcome";
+import Hello from "./components/Hello";
+import Message from "./components/Message";
+import Count from "./components/Count";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
+import EventBinding from "./components/EventBinding";
+import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
+import TodoList from "./components/TodoList";
+import Stylesheet from "./components/Stylesheet";
+import Inline from "./components/Inline";
+import Form from "./components/Form";
+import styles from "./appStyles.module.css";
+import "./appStyles.css";
 
 function App() {
   return (
     <>
-    <h1 className='error'>Error</h1>
+      <Form />
+      {/* <h1 className='error'>Error</h1>
     <h1 className={styles.success}>Success</h1>
 
-   {/* <Inline />
+    <Inline />
      <Stylesheet primary={true} />
     <TodoList />
    <NameList />
@@ -40,8 +42,7 @@ function App() {
       <Greet name="user3" />
         <Hello /> */}
     </>
-  )
+  );
 }
-console.log(<Greet />)
 
-export default App
+export default App;
