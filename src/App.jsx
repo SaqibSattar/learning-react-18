@@ -17,12 +17,16 @@ import Form from "./components/Form";
 import styles from "./appStyles.module.css";
 import "./appStyles.css";
 import LifecycleA from "./components/LifecycleA";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
 
 function App() {
   return (
     <>
-    <LifecycleA />
-     {/* <Form />
+      <Table />
+     {/*  <FragmentDemo />
+      <LifecycleA />
+      <Form />
        <h1 className='error'>Error</h1>
     <h1 className={styles.success}>Success</h1>
 
