@@ -32,7 +32,7 @@ import HoverCounter from "./components/HoverCounter";
 function App() {
   return (
     <>
-    <ClickCounter />
+    <ClickCounter name='Saqi' />
     <HoverCounter />
     {/* <ErrorBoundary>
     <Hero heroName={'Batman'}/>
