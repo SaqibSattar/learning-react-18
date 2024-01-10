@@ -35,12 +35,14 @@ import Counter from "./components/Counter";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/userContext";
 import PostList from "./components/PostList";
+import PostForm from "./components/PostForm";
 
 function App() {
   return (
     <>
-    <PostList />
-    {/* <UserProvider value='Saqi' >
+    <PostForm />
+    {/* <PostList />
+    <UserProvider value='Saqi' >
     <ComponentC />
     </UserProvider>
    <Counter 
